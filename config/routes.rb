@@ -3,8 +3,8 @@ Rails.application.routes.draw do
 
   authenticate :user do
     resources :users, only: [:show]
+    root to: redirect('/supriyan')
     mount Thredded::Engine => '/'
-    root to: 'home#show'
   end
 
   root to: redirect('/users/sign_in')
