@@ -16,4 +16,8 @@ $thredded-grid-container-max-width: $grid-container-max-width;
   @include thredded-media-tablet-and-up {
     padding: 0;
   }
+
+  .thredded--main-navigation {
+    display: none;
+  }
 }
