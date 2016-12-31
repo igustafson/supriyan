@@ -2,7 +2,7 @@ en:
   thredded:
     messageboard:
       index:
-        page_title: Forums
+        page_title: Boards
     nav:
-      all_messageboards: Forums
+      all_messageboards: Boards
 
