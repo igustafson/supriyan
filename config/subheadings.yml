@@ -1,0 +1,13 @@
+defaults: &defaults
+  subheadings:
+    - Kill whitey.
+    - Weedom is freedom.
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
