@@ -6,6 +6,10 @@ class User < ApplicationRecord
     super(value&.strip)
   end
 
+  def avatar_url
+    self.image_url || Gravatar.src(self.email, 128, 'mm')
+  end
+
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
