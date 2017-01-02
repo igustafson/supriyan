@@ -20,4 +20,8 @@ $thredded-grid-container-max-width: $grid-container-max-width;
   .thredded--main-navigation {
     display: none;
   }
+
+  .thredded--user-navigation--private-topics {
+    display: none;
+  }
 }
