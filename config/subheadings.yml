@@ -2,6 +2,7 @@ defaults: &defaults
   subheadings:
     - Kill whitey.
     - Weedom is freedom.
+    - one tooth drool guy from suburban MA WILL attend trump inaug
 
 development:
   <<: *defaults
