@@ -3,6 +3,7 @@ defaults: &defaults
     - Kill whitey.
     - Weedom is freedom.
     - one tooth drool guy from suburban MA WILL attend trump inaug
+    - unbridled netanyahu is making me want to cry more than leg strokes from ultrasound tech up the wahoo
 
 development:
   <<: *defaults
