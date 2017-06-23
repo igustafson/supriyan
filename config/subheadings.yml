@@ -5,6 +5,7 @@ defaults: &defaults
     - one tooth drool guy from suburban MA WILL attend trump inaug
     - unbridled netanyahu is making me want to cry more than leg strokes from ultrasound tech up the wahoo
     - That looks exactly like a photo of you, my enormous dinosaur Jr dick, and our wet bed!
+    - They didn't want me because I either use "clinical strength deodorant" too much or too little. I said "occassionally"
 
 development:
   <<: *defaults
